@@ -33,7 +33,9 @@ func guessNumber(n int) int {
 	}
 	return val
 }
-
+func guess(i int) int {
+	return 1
+}
 func guessNumber1(n int) int {
 	for {
 		g := guess(n / 2)
@@ -48,17 +50,21 @@ func guessNumber1(n int) int {
 }
 func guessNumber2(n int) int {
 	left := 1
+	val := 0
 	right := n
 	for {
 		num := (left + right) / 2
 		switch guess(num) {
 		case -1:
 			right = num - 1
+			val = val + num
 		case 1:
 			left = num + 1
+			val = val + num
 		case 0:
-			return num
+			break
 		}
 	}
+	return val
 
 }
