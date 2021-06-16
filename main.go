@@ -6,9 +6,10 @@ import (
 )
 
 func main() {
-	nums1 := "aadfaf"
+	//nums1 := "aadfaf"
+	i := []int{1, 2, 3}
 
-	nums2 := "badfafsaes"
-	fmt.Println(leetcode.CanConstruct(nums1, nums2))
+	//nums2 := "badfafsaes"
+	fmt.Println(leetcode.MinMoves1(i))
 
 }
