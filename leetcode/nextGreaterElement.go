@@ -10,23 +10,6 @@ package leetcode
 //来源：力扣（LeetCode）
 //链接：https://leetcode-cn.com/problems/next-greater-element-i
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-func nextGreaterElement(nums1 []int, nums2 []int) []int {
-	retVal := make([]int, 0)
-	map2 := make(map[int]int, 0)
-	for i, v := range nums2 {
-		map2[i] = v
-	}
-	for i1, v1 := range nums1 {
-		for i2, v2 := range map2 {
-			if map2[i1+1] > v1 {
-				retVal = append(retVal, map2[i1])
-			} else {
-				retVal = append(retVal, -1)
-			}
-		}
-	}
-	return retVal
-}
 
 func NextGreaterElement(nums1 []int, nums2 []int) []int {
 	ret := make([]int, 0)
