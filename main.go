@@ -11,6 +11,7 @@ func main() {
 	//fmt.Println(leetcode.FirstUniqChar("lleetcode"))
 	//nums2 := "badfafsaes"
 	//fmt.Println(leetcode.MinMoves1(i))
-	t := []string{"Hello", "Alaska", "Dad", "Peace"}
-	fmt.Println(leetcode.FindWords(t))
+	//t := []string{"Hello", "Alaska", "Dad", "Peace"}
+	//fmt.Println(leetcode.FindWords(t))
+	fmt.Println(leetcode.FfindComplement(50))
 }
