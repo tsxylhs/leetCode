@@ -42,4 +42,5 @@ func main() {
 	//fmt.Println(leetcode.FfindComplement(50))
 	//fmt.Println(leetcode.ThirdMax(i))
 	fmt.Println(leetcode.SumOfLeftLeaves(tree))
+	fmt.Println(leetcode.CountBits(10))
 }
