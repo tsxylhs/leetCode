@@ -37,11 +37,12 @@ func main() {
 	//fmt.Println(leetcode.FirstUniqChar("lleetcode"))
 	//nums2 := "badfafsaes"
 	//fmt.Println(leetcode.MinMoves1(i))
-	t := []string{"cir", "car"}
+	//t := []string{"cir", "car"}
 	//fmt.Println(leetcode.FindWords(t))
 	//fmt.Println(leetcode.FfindComplement(50))
 	//fmt.Println(leetcode.ThirdMax(i))
 	//fmt.Println(leetcode.SumOfLeftLeaves(tree))
 	//fmt.Println(leetcode.CountBits(10))
-	fmt.Print(leetcode.LongestCommonPrefix(t))
+	//fmt.Print(leetcode.LongestCommonPrefix(t))
+	fmt.Print(leetcode.CountOfAtoms("K4(ON(SO3)2)2"))
 }
